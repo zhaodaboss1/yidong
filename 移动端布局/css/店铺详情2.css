@@ -1,0 +1,499 @@
+.container{
+    width:7.01rem;
+    height: 100%;
+    margin: 0 auto;
+    min-height: 1px;
+}
+.header {
+    width: 100%;
+    height: 1.72rem;
+    margin: 0 auto;
+    background-color: #3bd4ff;
+
+}
+/*顶部开始*/
+.titled {
+    width: 100%;
+    height: 1.72rem;
+    padding-top: 0.65rem;
+    position: relative;
+    background-color: #3bd4ff;
+
+}
+.titled-box {
+    width: 100%;
+    height: 0.37rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.titled-box>p{
+    width: 2.4rem;
+    height: 0.37rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.37rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #fbfcfd;
+    margin-left: 2.05rem;
+    line-height: 0.37rem;
+}
+.icon1 {
+    font-family: "iconfont";
+    width: 0.35rem;
+    height: 0.35rem;
+    background-color: #ffffff;
+    font-size: 0.23rem;
+    line-height: 0.35rem;
+    text-align: center;
+    border-radius: 50%;
+}
+.icon2{
+    font-family: "iconfont";
+    width: 0.35rem;
+    height: 0.35rem;
+    background-color: #ffffff;
+    font-size: 0.23rem;
+    line-height: 0.35rem;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 1.45rem;
+
+}
+.icon3{
+    font-family: "iconfont";
+    width: 0.35rem;
+    height: 0.35rem;
+    background-color: #ffffff;
+    font-size: 0.23rem;
+    line-height: 0.35rem;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 0.2rem;
+
+}
+/*顶部结束*/
+/*介绍开始*/
+.introduce {
+    width: 7.01rem;
+    height: 1.49rem;
+    background-color: #ffffff;
+    box-shadow: 0.002rem 0.05rem 0.15rem 0rem rgba(2, 2, 2, 0.17);
+    border-radius: 0.1rem;
+    position: absolute;
+    top: 1.22rem;
+}
+.img-box {
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top: 0.24rem;
+    left: 0.24rem;
+}
+.img-box>img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.introduce-right {
+    width: 5.26rem;
+    height: 1.19rem;
+    position: absolute;
+    top: 0.18rem;
+    left: 1.48rem;
+}
+.xingxing {
+    height: 0.21rem;
+}
+.introduce-right>span{
+    width: 2rem;
+    height: 0.24rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #040404;
+    opacity: 0.8;
+}
+.introduce-sale{
+    width: 3.5rem;
+    height: 0.18rem;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.18rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #040404;
+    opacity: 0.6;
+}
+.introduce-bottom{
+    margin-top: 0.25rem;
+}
+.introduce-reduce>span {
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color: #ff296f;
+    float: left;
+    text-align: center;
+    line-height: 0.2rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.15rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #fefdfd;
+}
+.introduce-reduce>p{
+    width: 3.7rem;
+    height: 0.2rem;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.18rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #040404;
+    opacity: 0.6;
+    text-align: left;
+    line-height: 0.2rem;
+}
+.introduce-special{
+    padding-top: 0.04rem;
+}
+.introduce-special>span{
+    float: left;
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color: #ff296f;
+    float: left;
+    text-align: center;
+    line-height: 0.2rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.15rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #fefdfd;
+}
+.introduce-special>p{
+    width: 3.5rem;
+    height: 0.2rem;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.18rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #040404;
+    opacity: 0.6;
+    text-align: left;
+    line-height: 0.2rem;
+}
+/*介绍结束*/
+/*主体开始*/
+.theme {
+    height: 1.33rem;
+    margin-top: 1.04rem;
+    position: relative;
+
+}
+.theme-box1 {
+    width: 100%;
+    height: 0.44rem;
+    position: absolute;
+    top:0.55rem ;
+    display: flex;
+    justify-content: center;
+}
+.theme-order{
+    background-color: #ff296f;
+    width: 1.15rem;
+    height: 0.46rem;
+    border-radius: 0.23rem;
+    opacity: 0.8;
+    text-align: center;
+    line-height: 0.46rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #fefefe;
+}
+.theme-evaluate{
+    width: 1.15rem;
+    height: 0.46rem;
+    background-color: #3bd4ff;
+    border-radius: 0.23rem;
+    opacity: 0.8;
+    text-align: center;
+    line-height: 0.46rem;
+    margin: 0 0.5rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #fefefe;
+}
+.theme-business{
+    width: 1.15rem;
+    height: 0.46rem;
+    background-color: #3bd4ff;
+    border-radius: 0.23rem;
+    opacity: 0.8;
+    text-align: center;
+    line-height: 0.46rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #fefefe;
+}
+.theme-box2 {
+    width: 7.5rem;
+    height: 8.3rem;
+    background-color: #eeeeee;
+}
+.theme2-left {
+    float: left;
+    width: 1.7rem;
+    height: 100%;
+}
+.theme2-right{
+    float: right;
+    width: 5.8rem;
+    height: 100%;
+}
+.list-box>li {
+    width: 1.21rem;
+    height: 0.52rem;
+    border-radius: 0.23rem;
+    border: solid 0.03rem #3bd4ff;
+    text-align: center;
+    line-height: 0.46rem;
+    margin-top: 0.4rem;
+    margin-left: 0.24rem;
+}
+#frist{
+    background-color: #3bd4ff;
+    border-radius: 0.23rem;
+    border: solid 0.03rem #3bd4ff;
+}
+.shuliang-box{
+    position: absolute;
+    bottom: 0.25rem;
+    right: 0.27rem;
+    width: 1.4rem;
+    height: 0.4rem;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+#icon2{
+    font-family: iconfont;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color: #3bd4ff;
+    border-radius: 50%;
+    color: #ffffff;
+    line-height: 0.4rem;
+    text-align: center;
+    font-size: 0.2rem;
+}
+#shuliang{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #ff296f;
+}
+#icon1{
+    font-family: iconfont;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color: #3bd4ff;
+    border-radius: 50%;
+    color: #ffffff;
+    line-height: 0.4rem;
+    text-align: center;
+    font-size: 0.2rem;
+}
+#frist>a{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #ffffff;
+}
+.list-box>li>a{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #3bd4ff;
+}
+.theme2-right{
+    width: 5.8rem;
+    height: 100%;
+    float: right;
+}
+.list-box2>li {
+    width: 5.54rem;
+    height: 1.32rem;
+    margin-top: 0.25rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem
+}
+.list-box2>li>img{
+    width: 1rem;
+    height: 1rem;
+    padding-top: 0.2rem;
+    margin-left: 0.2rem;
+}
+.list2-right>p{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #020202;
+}
+.list2-right{
+    width: 4.26rem;
+    height: 1.08rem;
+    float: right;
+    margin-top: 0.2rem;
+    position: relative;
+
+}
+.yueshou-box{
+    width: 2.17rem;
+    height: 0.18rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.18rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #020202;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.15rem;
+
+}
+.jiaqian{
+    width: 0.36rem;
+    height: 0.14rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.18rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #ff296f;
+}
+.list2-right>i{
+    font-family: iconfont;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color: #3bd4ff;
+    border-radius: 50%;
+    color: #ffffff;
+    line-height: 0.4rem;
+    text-align: center;
+    font-size: 0.2rem;
+    position: absolute;
+    bottom: 0.25rem;
+    right: 0.27rem;
+}
+/*主题结束*/
+/*底部开始*/
+.footer{
+    width: 7.5rem;
+    height: 1rem;
+}
+.footer-header{
+    width: 100%;
+    height: 0.25rem;
+    background: #3bd4ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-header>p{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.18rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #ffffff;
+}
+.footer-box{
+    width: 100%;
+    height: 0.73rem;
+    background: #eeeeee;
+    position: relative;
+}
+.footer-box>img{
+    position: absolute;
+    top: 0.1rem;
+    left: 0.65rem;
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.footer-bottom{
+    position: absolute;
+    top: 0.28rem;
+    left: 1.7rem;
+    width: 5.1rem;
+    height: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-bottom>p{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.18rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #3bd4ff;
+}
+.footer-bottom>span{
+    font-family: "PingFang-SC-Bold";
+    font-size: 0.18rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #ffffff;
+    width: 1.34rem;
+    height: 0.43rem;
+    background-color: #3bd4ff;
+    border-radius: 0.215rem;
+    text-align: center;
+    line-height: 0.43rem;
+}
+.footer-bottom>span>a{
+    color: #ffffff;
+}
+div.jiaobiao{
+    position: absolute;
+    top: 0.1rem;
+    left: 1rem;
+    width: 0.17rem;
+    height: 0.17rem;
+    background-color: #ff296f;
+    border-radius: 50%;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.146rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #ffffff;;
+    text-align: center;
+    line-height: 0.17rem;
+}
+/*底部结束*/

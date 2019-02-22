@@ -1,0 +1,189 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+.head{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/背景.png");
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: relative;
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+.zhifu-box{
+    margin: 0 auto;
+    width: 5.23rem;
+    height: 3.7rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+    z-index: 1;
+    position: relative;
+    box-sizing: border-box;
+}
+.zhifu-box1{
+    width: 100%;
+    height: 0.75rem;
+    background: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 0.1rem;
+}
+.zhifu-box1>i{
+    font-family: iconfont;
+    margin-right: 1.2rem;
+    margin-left: 0.24rem;
+    width: 0.14rem;
+    height: 0.24rem;
+    color: #3bd4ff;
+    opacity: 0.8;
+}
+.zhifu-box1>p{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #3bd4ff;
+    opacity: 0.8;
+}
+.zhifu-box2{
+    width: 100%;
+    height: 0.7rem;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zhifu-box2>span{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #3bd4ff;
+    opacity: 0.8;
+}
+.zhifu-box3{
+    width: 100%;
+    height: 0.7rem;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+#icon1{
+    font-family: iconfont;
+    font-size: 0.26rem;
+    color: #d10100;
+    margin-left: 0.9rem;
+}
+.zhifu-box>p{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #040404;
+}
+#icon2{
+    font-family: iconfont;
+    width: 0.1rem;
+    height: 0.19rem;
+    opacity: 0.8;
+    margin-left: 1.24rem;
+}
+.zhifu-box4{
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    justify-content: space-around;
+}
+.dot-box{
+    width: 0.5rem;
+    height: 0.8rem;
+    position: relative;
+}
+.one{
+    margin-left: 0.5rem;
+}
+.tow{
+    margin-right: 0.5rem;
+}
+.dot{
+    width: 0.15rem;
+    height: 0.15rem;
+    background-color: #010101;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.41rem;
+    left: 0.17rem;
+}
+.bottom{
+    width: 0.5rem;
+    height: 0.07rem;
+    background-color: #010101;
+    border-radius: 0.035rem;
+    opacity: 0.1;
+    position: absolute;
+    top: 0.73rem;
+}
+.bottom1{
+    width: 0.5rem;
+    height: 0.07rem;
+    background-color: #3bd4ff;
+    border-radius: 0.035rem;
+    position: absolute;
+    top: 0.73rem;
+}
+#dot{
+    position: absolute;
+    top:0.33rem ;
+    left: 0.22rem;
+    width: 0.04rem;
+    height: 0.28rem;
+}
+.zhifu-box5{
+    width: 100%;
+    height: 0.75rem;
+    position: relative;
+}
+.zhifu-box5>i{
+    font-family: iconfont;
+    position: absolute;
+    top: 0.48rem;
+    left: 3.75rem;
+    font-size: 0.2rem;
+}
+.zhifu-box5>a{
+    position: absolute;
+    top: 0.44rem;
+    left: 4.05rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #040404;
+    opacity: 0.6;
+    width: 1.2rem;
+}
+.jianpan-box{
+    width: 100%;
+    height: 5.11rem;
+    position: absolute;
+    bottom: 3rem;
+    background: yellow;
+}
+.jianpan-box>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}

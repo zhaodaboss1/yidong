@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    list-style: none;
+}
+body{
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+i{
+    font-style: normal;
+}
+html{
+    font-size: 100px;
+}
+@media (min-width: 320px) {
+    html{
+        font-size: 42.66667px;
+    }
+}
+@media (min-width: 360px) {
+    html{
+        font-size: 48px;
+    }
+}
+@media (min-width: 375px) {
+    html{
+        font-size: 50px;
+    }
+}
+@media (min-width: 414px) {
+    html{
+        font-size: 55.2px;
+    }
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 1030187 */
+    src: url('//at.alicdn.com/t/font_1030187_ijfjd1jvmv.eot');
+    src: url('//at.alicdn.com/t/font_1030187_ijfjd1jvmv.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1030187_ijfjd1jvmv.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1030187_ijfjd1jvmv.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1030187_ijfjd1jvmv.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1030187_ijfjd1jvmv.svg#iconfont') format('svg');
+}
+

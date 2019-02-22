@@ -1,0 +1,159 @@
+.head{
+    width: 7.5rem;
+    height: 13.34rem;
+    background-image: url("../img/背景.png");
+    background-size: cover;
+    margin: 0 auto;
+}
+.box{
+    width: 7.5rem;
+    height: 13.34rem;
+    background-color: rgba(0,0,0,0.6);
+    position: relative;
+    margin: 0 auto;
+}
+.zhifu-box{
+    position: absolute;
+    top: 6.6rem;
+    width: 7.5rem;
+    height: 6.9rem;
+    background-color: #fcfcfa;
+}
+.xuanxiang-box1{
+    width: 100%;
+    height: 1.02rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icon1{
+    font-family: iconfont;
+    font-size: 0.3rem;
+    margin-right: 2.23rem;
+}
+#icon2{
+    font-family: iconfont;
+    font-size: 0.34rem;
+    margin-left: 2.5rem;
+}
+.xuanxiang-box1>p{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #040404;
+    opacity: 0.8;
+}
+#tiaoz{
+    color: #040404;
+
+}
+.xuanxiang-box{
+    width: 100%;
+    height: 1.02rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.icon1{
+    font-family: iconfont;
+    font-size: 0.75rem;
+    color: #f18ba3;
+    margin-left:0.55rem ;
+    margin-right: 0.55rem;
+}
+.text-box{
+    width: 1.4rem;
+    height: 0.23rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #020202;
+    opacity: 0.6;
+    margin-right: 4rem;
+}
+.icon2{
+    font-family: iconfont;
+    color: #e9e9e9;
+    font-size: 0.28rem;
+    margin-right: 0.28rem;
+}
+.icon9{
+    font-family: iconfont;
+    font-size: 0.75rem;
+    color: #1196db;
+    margin-left:0.55rem ;
+    margin-right: 0.55rem;
+}
+.icon10{
+    font-family: iconfont;
+    color: #e9e9e9;
+    font-size: 0.28rem;
+    margin-right: 0.28rem;
+}
+.icon3{
+    font-family: iconfont;
+    font-size: 0.75rem;
+    color: #06bef2;
+    margin-left:0.55rem ;
+    margin-right: 0.55rem;
+}
+.icon4{
+    font-family: iconfont;
+    color: #e9e9e9;
+    font-size: 0.28rem;
+    margin-right: 0.28rem;
+}
+.icon5{
+    font-family: iconfont;
+    font-size: 0.75rem;
+    color: #01f07b;
+    margin-left:0.55rem ;
+    margin-right: 0.55rem;
+}
+.icon6{
+    font-family: iconfont;
+    color: #e9e9e9;
+    font-size: 0.28rem;
+    margin-right: 0.28rem;
+}
+.xuanxiang-box2{
+    width: 100%;
+    height: 1.02rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.icon7{
+    font-family: iconfont;
+    font-size: 0.75rem;
+    color: #fe5c4d;
+    margin-left:0.55rem ;
+    margin-right: 0.55rem;
+}
+.icon8{
+    font-family: iconfont;
+    color: #01f07b;
+    font-size: 0.28rem;
+    margin-right: 0.28rem;
+}
+.text-box1>p{
+    width: 1.5rem;
+    height: 0.23rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #020202;
+    margin-right: 3.6rem;
+}
+.xuxian{
+    width: 6.56rem;
+    border: dashed 0.02rem #040404;
+    opacity: 0.1;
+    margin: 0 auto;
+}

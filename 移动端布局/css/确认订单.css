@@ -1,0 +1,454 @@
+/*顶部开始*/
+.container{
+    width:7.01rem;
+    height: 100%;
+    margin: 0 auto;
+    min-height: 1px;
+}
+.header {
+    width: 100%;
+    height: 2.54rem;
+    margin: 0 auto;
+    background-color: #3bd4ff;
+    overflow: hidden;
+}
+.titled {
+    width: 100%;
+    height: 2.54rem;
+    padding-top: 0.65rem;
+    position: relative;
+    background-color: #3bd4ff;
+
+}
+.titled-box {
+    width: 100%;
+    height: 0.37rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titled-box>p{
+    height: 0.37rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.37rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #fbfcfd;
+    line-height: 0.37rem;
+}
+.icon1 {
+    font-family: "iconfont";
+    width: 0.35rem;
+    height: 0.35rem;
+    background-color: #ffffff;
+    font-size: 0.23rem;
+    line-height: 0.35rem;
+    text-align: center;
+    border-radius: 50%;
+    color:#3bd4ff ;
+}
+.icon3{
+    font-family: "iconfont";
+    width: 0.35rem;
+    height: 0.35rem;
+    background-color: #ffffff;
+    font-size: 0.23rem;
+    line-height: 0.35rem;
+    text-align: center;
+    border-radius: 50%;
+    color:#3bd4ff ;
+}
+.dress{
+    width: 100%;
+    height: 1.13rem;
+    position: absolute;
+    top: 1.4rem;
+}
+.dress>span{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.18rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #ffffff;
+}
+.dress>p{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #ffffff;
+}
+.lianxiren{
+    height: 0.2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
+}
+.lianxiren>p{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #ffffff;
+}
+.lianxiren>span{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.18rem;
+    font-weight: normal;
+    letter-spacing: 0rem;
+    color: #ffffff;
+ }
+#icon4{
+    font-family: iconfont;
+    width: 0.12rem;
+    height: 0.2rem;
+    text-align: center;
+    line-height: 0.24rem;
+    font-size: 0.24rem;
+    display: block;
+    position: absolute;
+    bottom: 0.25rem;
+    left:1.7rem;
+    color: #ffffff;
+}
+#phone{
+    width: 1rem;
+    height: 0.24rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    line-height: 0.24rem;
+    position: absolute;
+    bottom: 0.25rem;
+    left: 1.95rem;
+    display: inline-block;
+    color: #ffffff;
+}
+/*顶部结束*/
+
+/*配送开始*/
+.back{
+    width: 7.5rem;
+    height: 10.79rem;
+    background-color: #eeeeee;
+    margin: 0 auto;
+    padding-top: 0.2rem;
+}
+.peisongbox{
+    height: 1.8rem;
+}
+.top-box{
+    height: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.top-box>i{
+    font-family: iconfont;
+    width: 0.25rem;
+    height: 0.25rem;
+    color: #3bd4ff;
+    font-size: 0.25rem;
+    line-height: 0.25rem;
+    padding-top: 0.05rem;
+}
+.top-box>p{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #3bd4ff;
+    margin-left: 0.1rem;
+}
+.bottom-box{
+    height: 1.32rem;
+    border-radius: 0.1rem;
+}
+.xuxian{
+    width: 6.56rem;
+    border: dashed 0.02rem #040404;
+    opacity: 0.1;
+    margin: 0 auto;
+}
+.bottom-li{
+    height: 0.66rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+}
+.bottom-li>i{
+    font-family: iconfont;
+    color: #3bd4ff;
+    font-size: 0.21rem;
+    margin-right: 0.22rem;
+}
+.bottom-li>p{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #3bd4ff;
+    margin-left: 0.22rem;
+    margin-right:3.6rem ;
+}
+.bottom-li>span{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #3bd4ff;
+}
+#zhifufangshi{
+    margin-right: 4.5rem;
+}
+/*配送结束*/
+/*商品信息开始*/
+.commodity-box{
+    height:3.6rem ;
+    margin-top: 0.6rem;
+}
+.commodity-box1{
+    height: 0.8rem;
+    background: #ffffff;
+}
+.commodity-box1>p{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.36rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #010101;
+    line-height: 0.8rem;
+    margin-left: 0.22rem;
+}
+.commodity-box2{
+    height: 1.6rem;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #ffffff;
+
+}
+.commodity-box2>img{
+    width: 0.51rem;
+    height: 0.51rem;
+    margin-left:0.22rem ;
+    margin-right: 0.22rem;
+}
+.commodity-box2>p{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #020202;
+    margin-right: 0.9rem;
+}
+.commodity-box2>span{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #ff296f;
+    margin-left: 1rem;
+    margin-right: 0.22rem;
+}
+.commodity-box3{
+    height: 0.64rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+
+}
+.commodity-box3>p{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #020202;
+    opacity: 0.82;
+    margin-left: 0.22rem;
+}
+.commodity-box3>span{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #ff296f;
+    margin-right: 0.22rem;
+}
+.commodity-box4{
+    height: 0.64rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #ffffff;
+
+}
+.commodity-box4>span{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #020202;
+    margin-right: 0.22rem;
+}
+.shuliang-box{
+    width: 1.2rem;
+    height: 0.4rem;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+#icon2{
+    font-family: iconfont;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color: #3bd4ff;
+    border-radius: 50%;
+    color: #ffffff;
+    line-height: 0.4rem;
+    text-align: center;
+    font-size: 0.2rem;
+}
+#shuliang{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #ff296f;
+}
+#icon1{
+    font-family: iconfont;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color: #3bd4ff;
+    border-radius: 50%;
+    color: #ffffff;
+    line-height: 0.4rem;
+    text-align: center;
+    font-size: 0.2rem;
+}
+/*商品信息结束*/
+/*订餐要求开始*/
+.bottom-box1{
+    height: 1.45rem;
+    border-radius: 0.1rem;
+    margin-top:0.4rem ;
+}
+.xuxian{
+    width: 6.56rem;
+    border: dashed 0.02rem #040404;
+    opacity: 0.1;
+    margin: 0 auto;
+}
+.bottom-li1{
+    height: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+
+}
+.bottom-li1>i{
+    font-family: iconfont;
+    color: #3bd4ff;
+    font-size: 0.21rem;
+    margin-right: 0.22rem;
+}
+.bottom-li1>p{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #020202;
+    margin-left: 0.22rem;
+    margin-right:4.3rem ;
+}
+#wuxu{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #1ef273;
+}
+#kouwei{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #020202;
+    opacity: 0.6;
+}
+/*定餐要求结束*/
+/*去支付开始*/
+.zhifu-box{
+    margin-top:1.85rem;
+    height: 0.6rem;
+}
+.zhifu-box2{
+    width: 2.66rem;
+    height: 0.59rem;
+    background-color: #3bd4ff;
+    border-radius: 0.295rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dot3{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background: #ffffff;
+    margin-right: 0.16rem;
+}
+.dot1{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background: #ffffff;
+}
+.dot4{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background: #ffffff;
+}
+.dot2{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background: #ffffff;
+    margin-left: 0.16rem;
+}
+.zhifu-box2>a{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #ffffff;
+    margin-right: 0.16rem;
+    margin-left: 0.16rem;
+}
+/*去支付结束*/

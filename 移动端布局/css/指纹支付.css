@@ -1,0 +1,113 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.head{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/背景.png");
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: relative;
+    margin: 0 auto;
+}
+.zhifu-box{
+    position: absolute;
+    top: 4.4rem;
+    left: 1.11rem;
+    width: 5.23rem;
+    height: 4.49rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+}
+.zhifu-box1{
+    width: 100%;
+    height: 0.75rem;
+    background: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 0.1rem;
+}
+.zhifu-box1>i{
+    font-family: iconfont;
+    margin-right: 1.2rem;
+    margin-left: 0.24rem;
+    width: 0.14rem;
+    height: 0.24rem;
+    color: #3bd4ff;
+    opacity: 0.8;
+}
+.zhifu-box1>p{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #3bd4ff;
+    opacity: 0.8;
+}
+.zhifu-box2{
+    width: 100%;
+    height: 0.7rem;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zhifu-box2>span{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #3bd4ff;
+    opacity: 0.8;
+}
+#zhiwen{
+    font-family: iconfont;
+    position: absolute;
+    top: 1.94rem;
+    left: 1.94rem;
+    color: #020202;
+    font-size: 1.24rem;
+}
+.zhifu-box4{
+    width: 100%;
+    height: 0.2rem;
+    margin-top: 2.05rem;
+    display: flex;
+    justify-content: center;
+}
+.zhifu-box4>p{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.19rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #040404;
+    opacity: 0.8;
+    line-height: 0.2rem;
+}
+.zhifu-box5{
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ }
+.zhifu-box5>a{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #000000;
+    opacity: 0.6;
+    margin-right: 0.37rem;
+}
